@@ -5,7 +5,7 @@ yum update -y
 yum install -y httpd
 mkdir store-dir
 cd store-dir
-wget https://www.free-css.com/assets/files/free-css-templates/download/page260/e-store.zip
+wget https://github.com/didiblaise/mywebsite/blob/main/mywebsite.zip
 unzip e-store.zip
 cd ecommerce-html-template
 mv * /var/www/html/
